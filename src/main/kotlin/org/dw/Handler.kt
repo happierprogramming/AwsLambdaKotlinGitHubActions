@@ -11,6 +11,6 @@ class Handler : RequestHandler<Map<String?, String>, String> {
 
         logger.log("Hello Kotlin AWS Lambda World!")
 
-        return@runBlocking "{ \"value\" : \"Hello Kotlin World!\" }"
+        return@runBlocking "{ \"value\" : \"Hello Kotlin World! Deployed by GitHub Action\" }"
     }
 }
